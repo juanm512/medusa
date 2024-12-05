@@ -145,17 +145,17 @@
 		"search": {
 			"label": "Buscar",
 			"title": "Buscar",
-			"description": "Buscar your entire store, including orders, products, customers, and more.",
+			"description": "Buscar en toda tu tienda, incluyendo ordenes, productos, clientes, y más.",
 			"allAreas": "Todas las areas",
 			"navigation": "Navegación",
 			"openResult": "Abrir resultado",
 			"showMore": "Mostrar más",
 			"placeholder": "Ir a o encontrar cualquier cosa...",
 			"noResultsTitle": "No se encontraron resultados",
-			"noResultsMessage": "We couldn't find anything that matched your search.",
-			"emptySearchTitle": "Type to search",
-			"emptySearchMessage": "Enter a keyword or phrase to explore.",
-			"loadMore": "Load {{count}} more",
+			"noResultsMessage": "No hemos podido encontrar nada que coincida con tu búsqueda.",
+			"emptySearchTitle": "Escribe para buscar",
+			"emptySearchMessage": "Ingresá una palabra clave o frase para explorar.",
+			"loadMore": "Cargar {{count}} más",
 			"groups": {
 				"all": "Todas las areas",
 				"customer": "Clientes",
@@ -380,6 +380,11 @@
 		"list": {
 			"noRecordsMessage": "Creá tu primer producto para comenzar a vender."
 		},
+		"edit": {
+      		"header": "Editar Producto",
+      		"description": "Editar los detalles del producto.",
+      		"successToast": "Producto {{title}} actualizado correctamente."
+   		},
 		"create": {
 			"header": "General",
 			"tabs": {
@@ -462,7 +467,6 @@
 		"deleteWarning": "Estás a punto de eliminar el producto {{title}}. Esta acción no se puede deshacer.",
 		"variants": "Variantes",
 		"attributes": "Atributos",
-		"editProduct": "Editar Producto",
 		"editAttributes": "Editar Atributos",
 		"editOptions": "Editar Opciones",
 		"editPrices": "Editar precios",
@@ -829,11 +833,17 @@
 				"list": {
 					"noRecordsMessage": "Crea primero un grupo de clientes."
 				}
+			},
+			"removed": {
+			  "success": "Cliente eliminado correctamente de: {{groups}}.",
+			  "list": {
+				"noRecordsMessage": "Por favor, creá un grupo de clientes primero."
+			  }
 			}
 		},
 		"edit": {
 			"header": "Editar Cliente",
-			"emailDeshabilitardTooltip": "La dirección de correo electrónico no se puede cambiar para clientes registrados.",
+			"emailDisabledTooltip": "La dirección de correo electrónico no se puede cambiar para clientes registrados.",
 			"successToast": "El cliente {{email}} se ha actualizado con éxito."
 		},
 		"delete": {
